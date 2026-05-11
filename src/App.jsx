@@ -216,7 +216,7 @@ export default function App() {
                 </div>
               </div>
 
-              <a href="https://lin.ee/" className="block text-center w-full mt-8 bg-orange-500 hover:bg-orange-600 transition text-white py-4 rounded-2xl text-lg font-bold shadow-lg">
+              <a href="https://lin.ee/YOGpBku" className="block text-center w-full mt-8 bg-orange-500 hover:bg-orange-600 transition text-white py-4 rounded-2xl text-lg font-bold shadow-lg">
                 応募・見学予約をする
               </a>
               <p className="text-xs text-gray-400 mt-3 text-center">
@@ -241,7 +241,7 @@ export default function App() {
             <a href="tel:" className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-xl font-bold">
               電話で問い合わせ
             </a>
-            <a href="https://lin.ee/" className="border border-gray-600 hover:bg-gray-800 transition px-6 py-3 rounded-xl font-bold">
+            <a href="https://lin.ee/YOGpBku" className="border border-gray-600 hover:bg-gray-800 transition px-6 py-3 rounded-xl font-bold">
               LINE相談
             </a>
           </div>
