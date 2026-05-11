@@ -5,6 +5,11 @@ export default function App() {
       <section className="relative overflow-hidden bg-white">
         <div className="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div>
+            <img
+  src="/logo-main.png"
+  alt="放課後等デイサービス 太陽の花"
+  className="h-20 w-auto mb-4"
+/>
             <div className="inline-block bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold mb-5">
               群馬県伊勢崎市｜放課後等デイサービス
             </div>
