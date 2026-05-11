@@ -2,68 +2,29 @@ export default function App() {
   return (
     <div className="min-h-screen bg-orange-50 text-gray-800">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
-          <div>
-            <img
-  src="/logo-main.png"
-  alt="放課後等デイサービス 太陽の花"
-  className="h-20 w-auto mb-4"
-/>
-            <div className="inline-block bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold mb-5">
-              群馬県伊勢崎市｜放課後等デイサービス
-            </div>
+      <section className="relative bg-white">
+  <img
+    src="/hero-full.png"
+    alt="放課後等デイサービス 太陽の花"
+    className="w-full h-auto"
+  />
 
-            <h1 className="text-5xl lg:text-7xl font-black leading-tight text-orange-500">
-              子どもの
-              <br />
-              「できた！」を
-              <br />
-              一緒につくる
-              <br />
-              仕事。
-            </h1>
+  {/* 見学応募ボタン */}
+  <a
+    href="https://lin.ee/あなたのLINE"
+    target="_blank"
+    className="absolute left-[7%] bottom-[12%] w-[18%] h-[6%]"
+  >
+  </a>
 
-            <p className="mt-8 text-lg leading-8 text-gray-600 max-w-2xl">
-              放課後等デイサービス「太陽の花」では、
-              発達に特性のある子ども達一人ひとりに寄り添いながら、
-              “楽しい”の中で成長を支える支援を行っています。
-              未経験でも大歓迎。子どもが好き、その気持ちがスタートラインです。
-            </p>
-
-            <div className="mt-10 flex flex-wrap gap-4">
-              <a href="#entry" className="bg-orange-500 hover:bg-orange-600 transition text-white px-8 py-4 rounded-2xl text-lg font-bold shadow-lg">
-                見学・応募はこちら
-              </a>
-              <a href="#entry" className="border-2 border-orange-400 text-orange-500 px-8 py-4 rounded-2xl text-lg font-bold hover:bg-orange-50 transition">
-                LINEで相談する
-              </a>
-            </div>
-
-            <div className="mt-8 flex gap-6 text-sm text-gray-500 flex-wrap">
-              <span>✓ 未経験歓迎</span>
-              <span>✓ ブランクOK</span>
-              <span>✓ キャリアアップ支援</span>
-              <span>✓ 子ども中心の療育</span>
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute -top-6 -right-6 w-40 h-40 bg-yellow-200 rounded-full blur-3xl opacity-50" />
-            <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-orange-200 rounded-full blur-3xl opacity-50" />
-
-            <div className="relative bg-white rounded-[32px] shadow-2xl p-4 border border-orange-100">
-              <img
-               src="/hero-design.png"
-                alt="放課後等デイサービス 太陽の花 ロゴ"
-                className="rounded-[24px] w-full object-cover"
-              />
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
+  {/* LINE相談ボタン */}
+  <a
+    href="https://lin.ee/あなたのLINE"
+    target="_blank"
+    className="absolute left-[28%] bottom-[12%] w-[18%] h-[6%]"
+  >
+  </a>
+</section>
       {/* Message */}
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
