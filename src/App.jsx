@@ -47,7 +47,7 @@ export default function App() {
 
             <div className="relative bg-white rounded-[32px] shadow-2xl p-4 border border-orange-100">
               <img
-               src="/hero.jpg."
+               src="/hero.jpg"
                 alt="放課後等デイサービス 太陽の花 ロゴ"
                 className="rounded-[24px] w-full object-cover"
               />
