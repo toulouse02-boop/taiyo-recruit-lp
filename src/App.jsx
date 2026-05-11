@@ -58,6 +58,17 @@ export default function App() {
                 alt="放課後等デイサービス 太陽の花 ロゴ"
                 className="rounded-[24px] w-full object-cover"
               />
+              <div className="absolute -top-10 right-10 w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-xl">
+  <img src="/activity.jpg" className="w-full h-full object-cover" />
+</div>
+
+<div className="absolute top-52 -right-8 w-36 h-36 rounded-full overflow-hidden border-4 border-white shadow-xl">
+  <img src="/activity.jpg" className="w-full h-full object-cover" />
+</div>
+
+<div className="absolute bottom-0 left-0 w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-xl">
+  <img src="/activity.jpg" className="w-full h-full object-cover" />
+</div>
             </div>
           </div>
         </div>
