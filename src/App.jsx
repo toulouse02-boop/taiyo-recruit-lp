@@ -16,7 +16,7 @@ export default function App() {
 
   {/* 見学応募ボタン */}
   <a
-    href="https://lin.ee/あなたのLINE"
+    href="https://lin.ee/YOGpBku"
     target="_blank"
     className="absolute left-[7%] bottom-[12%] w-[18%] h-[6%]"
   >
@@ -24,10 +24,12 @@ export default function App() {
 
   {/* LINE相談ボタン */}
   <a
-    href="https://lin.ee/あなたのLINE"
+    href="https://lin.ee/YOGpBku"
     target="_blank"
-    className="absolute left-[28%] bottom-[12%] w-[18%] h-[6%]"
-  >
+  rel="noopener noreferrer"
+  className="border-2 border-orange-500 text-orange-500 px-8 py-4 rounded-full font-bold inline-block"
+>
+  LINEで相談する
   </a>
 </section>
       {/* Message */}
