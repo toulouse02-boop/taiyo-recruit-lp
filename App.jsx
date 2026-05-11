@@ -16,7 +16,9 @@ export default function TaiyoNoHanaRecruitLP() {
               <br />
               「できた！」を
               <br />
-              一緒につくる仕事。
+              一緒につくる
+               <br />
+              仕事。
             </h1>
 
             <p className="mt-8 text-lg leading-8 text-gray-600 max-w-2xl">
