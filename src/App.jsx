@@ -6,7 +6,7 @@ export default function App() {
         <img
     src="/logo-main.png"
     alt="太陽の花 ロゴ"
-    className="absolute top-6 left-25 w-56 z-10"
+    className="absolute top-6 left-20 w-48 z-10"
   />
   <img
     src="/hero-full.png"
